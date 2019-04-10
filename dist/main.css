@@ -1,0 +1,78 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  padding: 3rem;
+  background-image: linear-gradient(to bottom right, #45b649, #dce35b);
+  background-repeat: no-repeat;
+  height: 100vh; }
+
+.btn, .btn:link, .btn:visited {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: none;
+  padding: 1.5rem 3rem;
+  border-radius: 100px;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: all 0.2s; }
+
+.btn:hover {
+  transform: translateY(-0.3rem);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.301); }
+
+.btn:active, .btn:focus {
+  outline: none;
+  transform: translateY(-0.1rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.26); }
+
+.btn-blue {
+  background: linear-gradient(to bottom right, #1e1159, #62559d);
+  color: white; }
+
+.form {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-row-gap: 0.5rem;
+  justify-items: center; }
+  .form-btn {
+    align-self: center; }
+  .form__title {
+    text-transform: uppercase;
+    padding: 2rem;
+    font-size: 3rem;
+    color: #62559d;
+    text-align: center; }
+  .form__radio-input {
+    display: none; }
+  .form__radio-label {
+    display: inline-block;
+    background-image: linear-gradient(to bottom right, #45b649, #dce35b);
+    color: white;
+    border-radius: 100px;
+    width: 20rem;
+    padding: 1rem 3rem;
+    margin: 0 1rem;
+    font-size: 3rem;
+    cursor: pointer;
+    text-align: center; }
+    .form__radio-label:hover {
+      background: #91c5c1; }
+  .form__radio-input:checked + .form__radio-label {
+    background: #68b0ab; }
+
+.start {
+  background-image: linear-gradient(to bottom right, #d9fff5, #c6e8df);
+  padding: 5rem;
+  margin: 5vh 20vw 0;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.301); }
+
