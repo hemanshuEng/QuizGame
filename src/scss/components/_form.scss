@@ -9,9 +9,10 @@
   &__group {
   }
   &__title {
+    text-transform: uppercase;
     padding: 2rem;
     font-size: 3rem;
-    color: $color-button;
+    color: $color-blue-light;
     text-align: center;
   }
   &__radio {
@@ -27,6 +28,7 @@
       );
       color: white;
       border-radius: 100px;
+      width: 20rem;
       padding: 1rem 3rem;
       margin: 0 1rem;
       font-size: 3rem;
@@ -36,10 +38,9 @@
         background: $color-button-light;
       }
     }
-    
+
     &-input:checked + &-label {
       background: $color-button;
     }
   }
- 
 }
