@@ -1,9 +1,5 @@
-# Webpack 4  Template  for project with javascript and sass  
+# Quiz Game project with javascript and sass  
 
-1. added image,svg loader
-2. added html loader
-3. need to add minified css (css nano)
-clone git git repository  
 
 `npm install`
 
